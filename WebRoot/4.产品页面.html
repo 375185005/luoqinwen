@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品页面</title>
+    <script src="js/jquery-3.1.1.min%20(1).js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/产品页面.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/产品页面.css"/>
+</head>
+<body>
+<nav class="top">
+    <a href="#nowhere">
+        <span class="glyphicon glyphicon-home redColor"> </span>
+        天猫首页
+    </a>
+    <span>瞄，欢迎来天猫</span>
+    <a href="#nowhere">请登录</a><a href="#nowhere">免费注册</a>
+            <span class="pull-right" style="margin-right: 30px">
+                <a href="#nowhere">我的订单</a>
+                <a href="nowhere">
+                    <span class="glyphicon glyphicon glyphicon-shopping-cart redColor"></span>
+                    购物车0件
+                </a>
+            </span>
+</nav>
+<!--nav-->
+<div>
+    <a href="#nowhere">
+        <img src="img/site/logo.gif" id="logo" width="290" height="130"/>
+    </a>
+    <div class="searchDiv">
+        <input type="text" placeholder="苹果手机   联想电脑"/>
+        <button class="pull-right" type="submit">
+            搜索
+        </button>
+        <div class="searchBelow">
+            <span><a href="#nowhere">平衡车</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#nowhere">扫地机器人</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#nowhere">原汁机</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#nowhere">冰箱</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+        <!--searchBelow-->
+    </div>
+    <!--searchDiv-->
+</div>
+<!--div-->
+<div class="homeDiv">
+    <div class="homeDiv-content">
+        <div class="logo">
+            <img src="img/category/68.jpg" alt=""/>
+        </div>
+        <!--logo-->
+        <div class="num1">
+            <div class="num1-left">
+                <div class="num1-left-top">
+                    <img src="img/productSingle/8620.jpg" alt="" class="bigimg" id="bigimg1"/>
+                    <img src="img/productSingle/8619.jpg" alt="" class="bigimg" style="display: none" id="bigimg2"/>
+                    <img src="img/productSingle_small/8618.jpg" alt="" class="bigimg" style="display: none" id="bigimg3"/>
+                    <img src="img/productSingle_small/8617.jpg" alt="" class="bigimg" style="display: none" id="bigimg4"/>
+                    <img src="img/productSingle_small/8616.jpg" alt="" class="bigimg" style="display: none" id="bigimg5"/>
+                </div>
+                <!--num1-left-top-->
+                <div class="num1-left-bottom">
+                    <img src="img/productSingle_small/8620.jpg" alt="" id="smallimg1"/>
+                    <img src="img/productSingle_small/8619.jpg" alt="" id="smallimg2"/>
+                    <img src="img/productSingle_small/8618.jpg" alt="" id="smallimg3"/>
+                    <img src="img/productSingle_small/8617.jpg" alt="" id="smallimg4"/>
+                    <img src="img/productSingle_small/8616.jpg" alt="" id="smallimg5"/>
+                </div>
+                <!--num1-left-bottom-->
+            </div>
+            <!--num1-left-->
+            <div class="num1-right">
+                <h2>
+                    名媛2016新款女装夏两件套裤韩版雪纺七分裤阔腿裤休闲时尚套装女
+                </h2>
+                <p style="color: red;margin-top:-10px ">高端定制 高档棉麻 现货即发 加购物车 领优惠券</p>
+                <div class="productPrice">
+                    <div class="juhuasuan">
+                        <span style="font-size: 20px;font-weight: bold">聚划算</span>
+                        此商品即将参加聚划算，
+                        <span style="color: orange;font-weight: bold">1天19小时</span>
+                        后开始
+                    </div>
+                    <!--juhuasuan-->
+                    <div class="ddd">
+                        <p style="margin-top: 10px">
+                            <img src="img/site/gouwujuan.png" alt="" height="18px"/>
+                            全天猫实物商品通用
+                        </p>
+                        <p>
+                            价格<span style="text-decoration: line-through;margin-left: 50px">￥399.00</span>
+                        </p>
+                        <p>
+                            促销价<span style="color: red;font-weight: bold;font-size: 24px;margin-left: 50px">￥379.00</span>
+                        </p>
+                    </div>
+                </div>
+                <!--productPrice-->
+                <div class="fff" style="margin-top: 20px">
+                    <p>
+                        <span style="margin-left: 150px">销量 <span style="color: red;font-weight: bold">50</span></span>
+                        <span style="margin-left: 200px">累计评价 <span style="color: red;font-weight: bold">19</span></span>
+                    </p>
+                </div>
+                <!--fff-->
+                <div class="ggg">
+                    <p style="height: 40px;">
+                        数量<input type="text" value="1" style="width: 40px;height: 30px;margin: 0;padding: 0;display: inline-block" id="number"/>
+                            <span id="up" style="display: inline-block;height: 20px;width:20px;text-align: center;border: 1px solid black;line-height: 20px;cursor: pointer">
+                                 <img src="img/site/increase.png" alt=""/>
+                             </span>
+                                <span id="down" style="display: inline-block;height: 20px;width: 20px;text-align: center;border: 1px solid black;line-height: 20px;cursor: pointer">
+                                    <img src="img/site/decrease.png" alt=""/>
+                                </span>
+                        件 库存66件
+                    </p>
+                    <p><span style="color: gray">服务承诺</span> 正品保证 极速退款 赠运费 七天无理由退换</p>
+                    <p style="margin-top: 20px">
+                        <button>
+                            立即购买
+                        </button>
+                        <button style="background: #C40000;color: white">
+                            加入购物车<span class="glyphicon glyphicon-shopping-cart"></span>
+                        </button>
+                    </p>
+                </div>
+                <!--ggg-->
+            </div>
+            <!--num1-right-->
+            <div style="clear: both"></div>
+        </div>
+        <!--num1-->
+        <div class="num2">
+            <div class="num2-nav">
+                <span class="product-details">商品详情</span>
+                <span class="assess">累计评价 19</span>
+            </div>
+            <div class="productDetailDiv">
+                <div class="productDetailDiv-top">
+                    <p style="font-weight: bold;color: darkgray;margin-bottom: 30px">产品参数：</p>
+                    <p><span>材质成分：聚酯纤维100%</span><span>品牌: Emyche/艾米秋</span><span>货号: 129668</span></p>
+                    <p><span>尺码: L M S XL X</span><span>上市年份季节: 2016年夏季</span>颜色分类: 白色 黑色 浅蓝</span></p>
+                    <p><span>适用年龄：18-30周岁</span></p>
+                </div>
+                <!--productDetailDiv-top-->
+                <div class="productDetailDiv-img" >
+                    <img src="img/productDetail/8626.jpg" alt=""/>
+                    <img src="img/productDetail/8625.jpg" alt=""/>
+                    <img src="img/productDetail/8624.jpg" alt=""/>
+                    <img src="img/productDetail/8623.jpg" alt=""/>
+                    <img src="img/productDetail/8622.jpg" alt=""/>
+                    <img src="img/productDetail/8621.jpg" alt=""/>
+                </div>
+                <!--productDetailDiv-img-->
+            </div>
+            <!--productDetailDiv-->
+            <div class="assessDiv" style="display: none">
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        不错的购物，包装很精细，布料也不错舒服，因为之前一直购买品牌装，很好的一次网购，生完宝宝刚刚一个多月我一百五十斤穿2XL不错
+                    </p>
+                    <i>2016-08-10<span style="margin-left: 400px">哀****莉（匿名）</span></i>
+                </div>
+                <!--kkk-->
+                <div class="kkk">
+                    <p>
+                        面料很好，大小也刚刚好，本来买之前还担心，犹豫，等货到了，比我心中想象的好很多，大家放心购买，很满意的购物，以后还会来??
+                    </p>
+                    <i>2016-08-20<span style="margin-left: 400px">贤*闲（匿名）</span></i>
+                </div>
+                <!--kkk-->
+            </div>
+            <!--assessDiv-->
+        </div>
+        <!--num2-->
+    </div>
+    <!--homeDiv-content-->
+</div>
+<!--homeDiv-->
+<div class="content">
+    <div class="content-nav">
+        <a href="#onwhere">
+            <img src="img/site/ensure.png" alt=""/>
+        </a>
+    </div>
+    <!--content-nav-->
+    <div class="contentBelow">
+        <ul>
+            <li><strong>购物指南</strong></li>
+            <li><a href="#nowhere">免费注册</a></li>
+            <li><a href="#nowhere">开通支付宝</a></li>
+            <li><a href="#nowhere">支付宝充值</a></li>
+        </ul>
+        <ul>
+            <li><strong>天猫保障</strong></li>
+            <li><a href="#nowhere">发票保障</a></li>
+            <li><a href="#nowhere">售后规则</a></li>
+            <li><a href="#nowhere">缺货赔偿</a></li>
+        </ul>
+        <ul>
+            <li><strong>支付方式</strong></li>
+            <li><a href="#nowhere">快捷支付</a></li>
+            <li><a href="#nowhere">信用卡</a></li>
+            <li><a href="#nowhere">蚂蚁花呗</a></li>
+            <li><a href="#nowhere">货到付款</a></li>
+        </ul>
+        <ul>
+            <li><strong>商家服务</strong></li>
+            <li><a href="#nowhere">商家入驻</a></li>
+            <li><a href="#nowhere">商家中心</a></li>
+            <li><a href="#nowhere">天猫智库</a></li>
+            <li><a href="#nowhere">天猫规则</a></li>
+            <li><a href="#nowhere">物流服务</a></li>
+            <li><a href="#nowhere">喵言喵语</a></li>
+            <li><a href="#nowhere">运营服务</a></li>
+        </ul>
+        <ul>
+            <li><strong>手机天猫</strong></li>
+            <li><a href="#nowhere"><img src="img/site/ma.png" alt=""/></a></li>
+        </ul>
+    </div>
+    <!--contentBelow-->
+</div>
+<!--content-->
+<div class="footer">
+    <img src="img/site/cateye.png" alt="" style="margin-left: 20px"/>
+    <div class="footerContent">
+        <div class="white-link">
+            <a href="#nowhere">关于天猫</a>
+            <a href="#nowhere">帮助中心</a>
+            <a href="#nowhere">开放平台</a>
+            <a href="#nowhere">诚聘英才</a>
+            <a href="#nowhere">联系我们</a>
+            <a href="#nowhere">网站合作</a>
+            <a href="#nowhere">法律声明</a>
+            <a href="#nowhere">知识产权</a>
+            <a href="#nowhere">廉正举报</a>
+        </div>
+        <!--white-link-->
+        <div class="white-link" style="margin-top: 20px;margin-bottom: 10px">
+            <span><a href="#">阿里巴巴集团</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">淘宝网</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">天猫</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">聚划算</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">全球速卖通</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">阿里巴巴国际交易市场</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">1688</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">阿里妈妈</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">阿里旅行</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">阿里云计算</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">阿里通信</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">YunOS</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">万网</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">高德</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">优视</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">友盟</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">虾米</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">天天动听</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">来往</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">钉钉</a>&nbsp;<span style="color: white">|</span></span>
+            <span>&nbsp;<a href="#">支付宝</a></span>
+        </div>
+        <!--white-link-->
+        <div class="license">
+            增值电信业务经营许可证： 浙B2-20110446 网络文化经营许可证：浙网文[2015]0295-065号 互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005
+        </div>
+        <!--license-->
+        <div class="license">
+            © 2003-2016 TMALL.COM 版权所有
+        </div>
+        <!--license-->
+        <div class="license" style="padding-bottom: 50px">
+            <img src="img/site/copyRight1.jpg" alt=""/>
+            <img src="img/site/copyRight2.jpg" alt=""/>
+        </div>
+        <!--license-->
+    </div>
+    <!--footerContent-->
+</div>
+<!--footer-->
+</body>
+</html>

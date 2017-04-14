@@ -1,0 +1,145 @@
+body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+a{
+    color: #999;
+}
+a:hover{
+    color: #C40000 !important;
+    text-decoration: none;
+}
+.redColor {
+    color: #C40000 !important;
+}
+nav.top{
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 5px 0;
+}
+nav.top a,nav.top span{
+    margin: 0 10px;
+    color: #999;
+}
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: -1;
+}
+div.searchDiv{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #C40000;
+    /*padding: 1px;*/
+
+}
+div.searchDiv input{
+    border: 1px solid #C40000;
+    margin: 1px;
+    width: 275px;
+    height: 37px;
+    text-indent: 5px;
+}
+div.searchDiv button{
+    background-color:transparent;
+    width: 120px;
+    height: 37px;
+    /*line-height: 42px;*/
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+div.searchDiv .searchBelow{
+    background-color:white;
+    padding-top: 1px;
+}
+div.content{
+    margin-top: 70px;
+    border-top: 1px solid #e7e7e7;
+
+}
+div.content .content-nav{
+    text-align: center;
+    margin: 25px auto;
+}
+div.content .contentBelow{
+    margin: 0 20px;
+    padding: 30px 10px;
+    border-top: 1px solid #e7e7e7;
+}
+div.content .contentBelow ul{
+    list-style-type: none;
+    float: left;
+    margin-right: 150px;
+}
+div.content .contentBelow ul li{
+    margin-bottom: 3px;
+}
+div.footer{
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+    clear: both;
+}
+div.footer .footerContent{
+    border-top: 2px solid #C40000;
+    background-color: black;
+}
+div.footer .footerContent .white-link{
+    margin: 10px 20px;
+}
+div.footer .footerContent .white-link a{
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+div.footer .footerContent .license{
+    color: lightgray;
+    margin: 10px 20px;
+}
+div.center{
+    margin: 30px  auto;
+    max-width: 1013px;
+}
+div.center h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #118ADB;
+    margin-top: 50px;
+}
+div.center p{
+    margin: 20px 0 20px 10px;
+    font-size: 14px;
+}
+div.center .bbb{
+    margin: 20px 10px;
+    border-top: 1px solid #CCCCCC;
+}
+.wangwang{
+    display: inline-block;
+    background: url("../img/site/wangwang.gif");
+    width: 67px;
+    height: 22px;
+    background-position: 0px 0px;
+    margin-left: 10px;
+}
+div.center .ccc{
+    margin: 20px auto;
+    padding: 0px 0 20px 80px;
+    border: 1px solid orangered;
+}
+div.center .ccc button{
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+    margin-left: 10px;
+}

@@ -1,0 +1,45 @@
+/**
+ * Created by Administrator on 2017/4/11 0011.
+ */
+$(function(){
+   $('#num1').click(function(){
+       $('.a').css('display','block')
+       $('.b').css('display','none')
+       $('.c').css('display','none')
+       $('.d').css('display','none')
+       $('.e').css('display','none')
+        $(this).css('color','brown')
+   })
+    $('#num2').click(function(){
+        $('.b').css('display','block')
+        $('.a').css('display','none')
+        $('.c').css('display','none')
+        $('.d').css('display','none')
+        $('.e').css('display','none')
+        $(this).css('color','brown')
+    })
+    $('#num3').click(function(){
+        $('.b').css('display','none')
+        $('.a').css('display','none')
+        $('.c').css('display','block')
+        $('.d').css('display','none')
+        $('.e').css('display','none')
+        $(this).css('color','brown')
+    })
+    $('#num4').click(function(){
+        $('.b').css('display','none')
+        $('.a').css('display','none')
+        $('.c').css('display','none')
+        $('.d').css('display','block')
+        $('.e').css('display','none')
+        $(this).css('color','brown')
+    })
+    $('#num5').click(function(){
+        $('.b').css('display','none')
+        $('.a').css('display','none')
+        $('.c').css('display','none')
+        $('.d').css('display','none')
+        $('.e').css('display','block')
+        $(this).css('color','brown')
+    })
+});

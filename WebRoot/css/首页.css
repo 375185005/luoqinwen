@@ -1,0 +1,229 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+a{
+    color: #999;
+}
+a:hover{
+    color: #C40000 !important;
+    text-decoration: none;
+}
+.redColor {
+    color: #C40000 !important;
+}
+nav.top{
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 5px 0;
+}
+nav.top a,nav.top span{
+    margin: 0 10px;
+    color: #999;
+}
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: -1;
+}
+div.searchDiv{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #C40000;
+    /*padding: 1px;*/
+
+}
+div.searchDiv input{
+    border: 1px solid #C40000;
+    margin: 1px;
+    width: 275px;
+    height: 37px;
+    text-indent: 5px;
+}
+div.searchDiv button{
+    background-color:transparent;
+    width: 120px;
+    height: 37px;
+    /*line-height: 42px;*/
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+div.searchDiv .searchBelow{
+    background-color:white;
+    padding-top: 1px;
+}
+div.content{
+    margin-top: 70px;
+    border-top: 1px solid #e7e7e7;
+
+}
+div.content .content-nav{
+    text-align: center;
+    margin: 25px auto;
+}
+div.content .contentBelow{
+    margin: 0 20px;
+    padding: 30px 10px;
+    border-top: 1px solid #e7e7e7;
+}
+div.content .contentBelow ul{
+    list-style-type: none;
+    float: left;
+    margin-right: 150px;
+}
+div.content .contentBelow ul li{
+    margin-bottom: 3px;
+}
+div.footer{
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+    clear: both;
+}
+div.footer .footerContent{
+    border-top: 2px solid #C40000;
+    background-color: black;
+}
+div.footer .footerContent .white-link{
+    margin: 10px 20px;
+}
+div.footer .footerContent .white-link a{
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+div.footer .footerContent .license{
+    color: lightgray;
+    margin: 10px 20px;
+}
+div.categoryWithCarousel{
+    width: 100%;
+    position: relative;
+}
+.headbar{
+    background-color: #DD2727;
+}
+.headbar .head{
+    height: 36px;
+    line-height: 36px;
+    width: 200px;
+    background-color: #C60A0A;
+    color: white;
+    margin-left: 170px;
+    display: inline-block;
+    clear: both;
+    font-size: 18px;
+}
+.headbar .rightMenu{
+    display: inline-block;
+    font-size: 16px;
+}
+.headbar .rightMenu span{
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    margin: 0 20px;
+    /*float: left;*/
+}
+.headbar .rightMenu span {
+    color: white;
+    cursor: pointer;
+}
+.categoryMenu{
+    width: 200px;
+    background-color: #e2e2e3;
+    left: 170px;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+}
+.categoryMenu .eachCategory{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+    /*display: inline-block;*/
+}
+.categoryMenu .eachCategory a{
+    color: black;
+}
+.categoryMenu .eachCategory a:hover{
+    color: #5bc0de !important;
+}
+.productsAsideCategorys{
+    width: 825px;
+    height: 510px;
+    background-color: white;
+    /*margin-left: 220px;*/
+    display: none;
+    position: absolute;
+    left: 370px;
+    top: 0;
+    z-index: 1;
+    /*background-color: green;*/
+}
+.productsAsideCategorys .row{
+    margin: 40px 0 30px 80px;
+    font-size: 14px;
+}
+.productsAsideCategorys .row a {
+    margin: 0 10px;
+}
+#myCarousel{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+.homepageCategoryProducts{
+    background-color: #F5F5F5;
+    margin: 50px auto;
+    padding: 50px 10px;
+    max-width: 1013px;
+    /*float: left;*/
+}
+.eachHomepageCategoryProducts{
+    margin: 0 0 40px 0;
+    float: left;
+}
+.eachHomepageCategoryProducts h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    border-left: 5px solid #5bc0de;
+    text-indent: 20px;
+}
+.eachHomepageCategoryProducts .productItem{
+    width: 189px;
+    margin-right: 5px;
+    float: left;
+}
+.eachHomepageCategoryProducts .productItem:hover{
+    border: 1px solid red;
+}
+.eachHomepageCategoryProducts .productItem span{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+}
+.eachHomepageCategoryProducts .productItem img{
+    width: 187px;
+    height: 190px;
+}
+.eachHomepageCategoryProducts .productItem p{
+    display: inline-block;
+    margin: 5px 0 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+}
